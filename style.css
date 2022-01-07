@@ -1,0 +1,125 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(https://cdn.pixabay.com/photo/2017/12/27/19/49/banner-3043585_960_720.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+}
+
+body::after{
+    content: "";
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    height: 100%;
+    width: 900px;
+   background: rgba(0, 0, 0, 0.6);
+   background-attachment: fixed;
+   z-index: -1;
+   transform: translateX(-50%);
+
+}
+
+p{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header .container{
+    padding: 2rem 0;
+    text-align: center;
+    background-color: rgba(3, 14, 14, 0.452);
+    border-radius: 0 0 1rem 1rem;
+    margin-bottom: 2rem;
+}
+header h1{
+    font-size: 3rem;
+color: white;
+padding-bottom: 0.3rem;
+
+}
+
+form input,
+form button{
+    outline: none;
+    border: none;
+    padding: 0.8rem;
+    font-size:1.1rem ;
+    font-family: inherit;
+
+}
+
+form input{
+    width: 40%;
+    border-radius: 1rem 0 0 1rem;
+    margin-right: 1px;
+}
+form button{
+    border-radius:0 1rem 1rem 0;
+    background-color: rgba(0, 0, 0, 0.705);
+    color: white;
+    cursor: pointer;
+    transition: all;
+}
+form button:hover{
+    background-color: rgba(116, 31, 31, 0.527);
+}
+
+section .container{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    margin-right: 0 auto;
+}
+
+
+.songs{
+    width: 50%;
+    list-style: none;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+.songs li{
+    font-size: 1.2rem;
+    text-align: start;
+    display: flex;
+    justify-content: flex-start ;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 1px solid white;
+}
+
+.songs li span{
+    font-size: 1.3rem;
+    padding: 5px;
+    margin: 5px;
+    border-radius:1rem 1rem 1rem 1rem;
+    background-color: rgba(0, 0, 0, 0.904);
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
