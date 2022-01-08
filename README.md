@@ -1,7 +1,8 @@
 # lyrics Search.
-<h2></h2>
+<h2>Technology used</h2>
 <ul>
-<li></li>
-  <li></li>
-  <li></li>
+<li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li>api</li>
 </ul>
