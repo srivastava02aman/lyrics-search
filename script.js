@@ -15,7 +15,7 @@ form.addEventListener("submit", e => {
    let searchValue = search.value.trim();
 
 if (!searchValue){
-    alert("type kar bhosdi k")
+    alert("null")
 } else{
     beginSearch(searchValue);
 }
